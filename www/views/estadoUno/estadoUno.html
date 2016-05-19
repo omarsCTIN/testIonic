@@ -1,0 +1,18 @@
+<ion-view view-title="Mi estado 1 prueba">
+  <ion-content>
+    <div class="list">
+      <div class="item item-icon-left">
+        <i class="icon ion-key"></i> Numero: {{modelo.numero}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-calendar"></i> Fecha: {{modelo.fecha | date:'mediumDate'}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-wifi"></i> Palabra: {{modelo.palabra}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-pricetag"></i> Precio {{modelo.precio | currency}}
+      </div>      
+    </div>
+  </ion-content>
+</ion-view>
